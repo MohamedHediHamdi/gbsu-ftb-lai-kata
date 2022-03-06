@@ -1,0 +1,9 @@
+<div class="container">
+  <form [formGroup]="form" (submit)="submitNumber()">
+    <div class="form-group">
+      <label for="inputNumber">Number to convert</label>
+      <input id="inputNumber" class="form-control" type="number" formControlName="inputNumber"/>
+    </div>
+    <button type="submit" class="btn btn-primary" >convert</button>
+  </form>
+</div>
